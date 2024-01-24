@@ -1,0 +1,28 @@
+[physics]
+useMass = "false"
+mass = 0.2
+g = 0.0
+kappa = 0.18
+lambda = 0.02
+cutFraction = 1.0
+
+[langevin]
+averageEpsilon = 0.02
+MaxLangevinTime = 100.0
+ExportTime = 0.5
+burnCount = 10
+MeasureDriftCount = 10
+
+[io]
+configFileName = "test.hdf"
+export = "false"
+timeSliceFileName = "slice.dat"
+
+[random]
+seed = 1234
+
+[fermions]
+yukawa_coupling =  1.0
+fermion_mass = 1.0
+driftMode = 0 # 0 for normal, 1 for rescaled (s^2 times drift)
+WilsonParam = 1.0

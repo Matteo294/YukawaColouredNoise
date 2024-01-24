@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zortea/QuarkMesonModel/analysis/AutoCorrelation/ac.cpp
+ac.h
+/home/zortea/QuarkMesonModel/analysis/AutoCorrelation/ac.h
+iostream
+-
+cstdlib
+-
+new
+-
+limits
+-
+
+/home/zortea/QuarkMesonModel/analysis/AutoCorrelation/ac.h
+complex
+-
+numeric
+-
+vector
+-
+algorithm
+-
+fftw3.h
+-
+

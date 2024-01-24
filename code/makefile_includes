@@ -1,0 +1,19 @@
+#anything different from 'true' will result in LTO being turned off
+USE_LTO=true
+
+#FFT=vkFFT
+FFT=cuFFT
+
+#ARCH=sm_75
+ARCH=sm_70	# for the cluster
+
+# change for the appropriate path to toml11
+TOML=/home/zortea/toml11-master
+HDF_INC=/opt/hdf5/include
+HDF_LIB=/opt/hdf5/lib
+VKFFT_INC=.
+
+#TOML=/home/hd/hd_hd/hd_vk280/toml11
+#HDF_INC=/home/hd/hd_hd/hd_ri263/hdf_stuff/include
+#HDF_LIB=/home/hd/hd_hd/hd_ri263/hdf_stuff/lib
+#VKFFT_INC=.

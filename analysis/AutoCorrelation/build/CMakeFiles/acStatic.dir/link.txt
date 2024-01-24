@@ -1,0 +1,2 @@
+/usr/bin/ar qc libac.a CMakeFiles/acStatic.dir/ac.cpp.o
+/usr/bin/ranlib libac.a

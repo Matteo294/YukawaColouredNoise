@@ -1,0 +1,4 @@
+/home/zortea/QuarkMesonModel/analysis/AutoCorrelation/build/CMakeFiles/rebuild_cache.dir
+/home/zortea/QuarkMesonModel/analysis/AutoCorrelation/build/CMakeFiles/edit_cache.dir
+/home/zortea/QuarkMesonModel/analysis/AutoCorrelation/build/CMakeFiles/acStatic.dir
+/home/zortea/QuarkMesonModel/analysis/AutoCorrelation/build/CMakeFiles/ac.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O2 -ftree-vectorize -march=native -Wall -Wextra -Weffc++ -shared -Wl,-soname,libac.so -o libac.so CMakeFiles/ac.dir/ac.cpp.o  /usr/lib/x86_64-linux-gnu/libfftw3.so -lm 
